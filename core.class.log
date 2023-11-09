@@ -1,0 +1,63 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5493775494791@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB002591568C822C4ACED',
+    participant: undefined
+  },
+  messageTimestamp: 1699470729,
+  pushName: 'San Miguel Asesores De Seguros',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola como estas?',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'San Miguel Asesores De Seguros',
+  body: 'hola como estas?',
+  from: '5493775494791'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fa30aab9-0a1e-48e2-b687-cdc7ab02be89',
+  keyword: 'key_194377df-fbc8-45a5-8643-d1facf13ae47',
+  answer: 'Bienvenido implementamos esta función para agilizar algunas consultas mientras no nos encontramos, escribe la palabra que aparece en *negrita*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e0d15988d7dada7d662b1f0bf4cc9f9d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_98fb7157-9700-462b-b8f5-41d65fd3cf9b',
+  keyword: 'ans_fa30aab9-0a1e-48e2-b687-cdc7ab02be89',
+  answer: '👉 *cotizar* para saber que datos necesitamos para cotizar su vehículo.\n' +
+    '👉 *seguros* para conocer con que seguros contamos.\n' +
+    '👉 *siniestro* para conocer que datos debe solicitar en caso de un siniestro.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '701d4a5362512a5a4e6d55050e3bcc65'
+}
